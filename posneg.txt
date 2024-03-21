@@ -1,0 +1,18 @@
+func posneg(a:Int,b:Int)->Bool
+{
+    if(a<0 && b>0) || (a>0 && b<0 )
+    {
+        return true
+    }
+    else if(a<0 && b<0)
+        {
+            return false
+        }
+    else
+        {
+            return false
+        }
+}
+print(posneg(a:-12,b:23))
+
+

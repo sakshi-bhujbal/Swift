@@ -1,0 +1,29 @@
+
+func MaxNum(a:Int,b:Int)->Void
+{
+    if a>b
+    {
+        if(a>=20 && a<=30)
+        {
+            print(a)
+        }
+    }
+    else if (b>a)
+    {
+        if(b>=20 && b<=30)
+        {
+            print(b)
+        }
+    }
+    else if(a==b && a>=20 && a<=30)
+    {
+        print(a)
+    }
+    else
+    {
+        print(0)
+    }
+}
+MaxNum(a:2,b:2)
+
+
