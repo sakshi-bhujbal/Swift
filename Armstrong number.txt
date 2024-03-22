@@ -1,0 +1,18 @@
+var num = 407
+var sum = 0
+var n = num
+
+while(n != 0)
+{
+    var rem = n % 10
+    sum = sum + (rem * rem * rem)
+    n = n / 10
+}
+if(sum == num)
+{
+    print("YES! \(num) is an Armstrong Number")
+}
+else
+{
+    print("No! \(num) is not an Armstrong Number")
+}
