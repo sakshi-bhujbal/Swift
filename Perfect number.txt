@@ -1,0 +1,19 @@
+func checkPerfect(number: Int) -> Bool {
+   var sum = 0
+   for x in 1..<number {
+      if number % x == 0 {
+         sum += x
+      }
+   }
+   return sum == number
+}
+let N1 = 28
+print("Is \(N1) is a perfect number?:", checkPerfect(number:N1))
+
+
+let N2 = 8128
+print("Is \(N2) is a perfect number?:", checkPerfect(number:N2))
+
+
+let N3 = 21
+print("Is \(N3) is a perfect number?:", checkPerfect(number:N3))
