@@ -1,0 +1,11 @@
+func Multiple(a:Int)->Bool
+{
+    if(a%3==0 || a%5==0)
+    {
+        return true
+    }
+    else{
+        return false
+        }
+    }
+    print(Multiple(a:15))
