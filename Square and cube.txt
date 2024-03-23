@@ -1,0 +1,3 @@
+var a = 4
+print("Square of \(a) is:",a * a)
+print("Cube of \(a) is:",a * a * a)

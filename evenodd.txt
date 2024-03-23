@@ -1,0 +1,11 @@
+func evenodd(a:Int)->Void
+{
+    if (a%2==0) {
+        print("a is Even")
+        }
+    else
+    {
+        print("a is Odd")
+    }
+}
+evenodd(a:58)

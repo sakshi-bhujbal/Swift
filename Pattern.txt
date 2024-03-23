@@ -1,0 +1,7 @@
+let  num = 3
+    for x in 1...num{
+        for _ in 1...x{
+            print("*",terminator:" ")
+        }
+        print(" ")
+    }
